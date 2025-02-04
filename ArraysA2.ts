@@ -71,3 +71,7 @@ console.log(sumaTotal);
 //funcio REDUCE tots els valors els redueix a un sol calcul
 const sumaTotalReduce = list.reduce((acc, valor) => acc+valor,0);
 console.log("reduce->" + sumaTotalReduce);
+
+let listacompleta: number[] = [6, 8, 11, 13, 14, 18, 100];
+
+const listaRecortada: number[] = listacompleta.slice(2,5);
